@@ -27,7 +27,7 @@ env.example => .env
 
 ### Ya tenemos todo listo :D 
 
-Ahora levante el serve con:
+Ahora levante el server con:
 
 ```
 yarn start
