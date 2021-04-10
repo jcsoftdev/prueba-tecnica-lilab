@@ -1,0 +1,33 @@
+
+.content {
+  margin: 0 auto;
+  column-count: 1;
+  /* align-items: start; */
+}
+.content .card {
+  break-inside: avoid-column;
+}
+.content .card:first-child {
+  margin-top: 0;
+}
+@media (min-width: 640px) {
+  .content {
+    padding: 0 1rem;
+    max-width: 720px;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    max-width: 968px;
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content {
+    max-width: 1200px;
+    column-count: 4;
+  }
+}
